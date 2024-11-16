@@ -1,1 +1,128 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  height: 293px;
+  padding: 92px 50px 96px;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.header__logo-image {
+  height: 105px;
+}
+
+.header__menu {
+  align-self: center;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 34px;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+  letter-spacing: 1%;
+}
+
+.header__links-list-item_no-bullet {
+  list-style-type: none;
+}
+
+.header__link {
+  text-decoration: underline;
+  text-underline-offset: 15%;
+}
+
+.header__link_active{
+  text-decoration: none;
+}
+
+address {
+  display: inline;
+  font-style: normal;
+}
+
+.header__address {
+  justify-self: end;
+  align-self: center;
+  padding-right: 37px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 757px;
+}
+.cover__title {
+  display: block;
+  justify-self: center;
+  width: 100%;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 60%;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.cover__title span {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0, 0, 0/0.6);
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  justify-self: flex-end;
+  padding-left: 78px;
+  padding-top: 80px;
+  padding-right: 50px;
+}
+
+.cover__description-text {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  word-spacing: 26px;
+}
+
+button {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+
+.bet-button {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #FFF;
+  padding: 12px 32px 11px 31px;
+}
