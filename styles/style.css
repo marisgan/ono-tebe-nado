@@ -78,37 +78,30 @@ address {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 100px;
-  line-height: 122px;
-  margin-bottom: 125px;
+  margin-bottom: 133px;
 }
 
 .aligned-text {
   display: block;
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_center {
-  display: block;
   text-align: center;
-  letter-spacing: 30px;
+  line-height: 135%
 }
 
 .aligned-text_right {
-  display: block;
   text-align: right;
-  letter-spacing: 60px;
+  line-height: 105%
 }
 
-.letter-spacing-far {
-  letter-spacing: 60px;
-}
-
-.letter-spacing-mid {
-  letter-spacing: 30px;
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
 }
 
 .no-letter-spacing {
-  letter-spacing: normal;
+  letter-spacing: 0em;
 }
 
 /* OVERLAY */
@@ -135,7 +128,7 @@ address {
   font-size: 22px;
   line-height: 28px;
   font-weight: 400;
-  word-spacing: 19px;
+  word-spacing: 0.85em;
   margin-left: 28px;
 }
 
